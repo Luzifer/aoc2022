@@ -5,4 +5,5 @@ My solutions to the [Advent of Code 2022](https://adventofcode.com/2022)… At l
 | Day | Language | Description |
 | :---: | :--- | :--- |
 | [1](https://adventofcode.com/2022/day/1) | [Go](./day1/main.go) | Quick and dirty, not much stucture, no optimizations. Just read the input from `os.Stdin` and spit out the two solutions. |
-| | [Bash](./day1/bash_solution.sh) | Had some time left for the stream and added this as a kind of troll-approach. Works but probably shouldn't be taken too serious. |
+| [1](https://adventofcode.com/2022/day/1) | [Bash](./day1/bash_solution.sh) | Had some time left for the stream and added this as a kind of troll-approach. Works but probably shouldn't be taken too serious. |
+| [2](https://adventofcode.com/2022/day/2) | [Go](./day2/main.go) | Possibly "slightly" overengineered but it works and has speaking names… |
