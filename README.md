@@ -8,3 +8,4 @@ My solutions to the [Advent of Code 2022](https://adventofcode.com/2022)… At l
 | [1](https://adventofcode.com/2022/day/1) | [Bash](./day01/bash_solution.sh) | Had some time left for the stream and added this as a kind of troll-approach. Works but probably shouldn't be taken too serious. |
 | [2](https://adventofcode.com/2022/day/2) | [Go](./day02/main.go) | Possibly "slightly" overengineered but it works and has speaking names… |
 | [3](https://adventofcode.com/2022/day/3) | [Go](./day03/main.go) | Again quick and dirty, not much documented but does the trick… |
+| [4](https://adventofcode.com/2022/day/4) | [Go](./day04/main.go) | One moore quick and dirty solved and missing error handling but still works… |
