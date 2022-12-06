@@ -9,4 +9,5 @@ My solutions to the [Advent of Code 2022](https://adventofcode.com/2022)… At l
 | [2](https://adventofcode.com/2022/day/2) | [Go](./day02/main.go) | Possibly "slightly" overengineered but it works and has speaking names… |
 | [3](https://adventofcode.com/2022/day/3) | [Go](./day03/main.go) | Again quick and dirty, not much documented but does the trick… |
 | [4](https://adventofcode.com/2022/day/4) | [Go](./day04/main.go) | One moore quick and dirty solved and missing error handling but still works… |
-| [5](https://adventofcode.com/2022/day/5) | [Go](./day05/main.go) | Few shortcuts taken by assuming valid input, otherwise proably not that bad… |
+| [5](https://adventofcode.com/2022/day/5) | [Go](./day05/main.go), [Test](./day05/main_test.go) | Few shortcuts taken by assuming valid input, otherwise proably not that bad… |
+| [6](https://adventofcode.com/2022/day/6) | [Go](./day06/main.go), [Test](./day06/main_test.go) | Quite simple, possibly more easy to implement but works fine and fast. |
