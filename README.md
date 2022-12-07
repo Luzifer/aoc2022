@@ -11,3 +11,4 @@ My solutions to the [Advent of Code 2022](https://adventofcode.com/2022)… At l
 | [4](https://adventofcode.com/2022/day/4) | [Go](./day04/main.go) | One moore quick and dirty solved and missing error handling but still works… |
 | [5](https://adventofcode.com/2022/day/5) | [Go](./day05/main.go), [Test](./day05/main_test.go) | Few shortcuts taken by assuming valid input, otherwise proably not that bad… |
 | [6](https://adventofcode.com/2022/day/6) | [Go](./day06/main.go), [Test](./day06/main_test.go) | Quite simple, possibly more easy to implement but works fine and fast. |
+| [7](https://adventofcode.com/2022/day/6) | [Go](./day07/main.go), [Test](./day07/main_test.go) | Ran into trouble with path matching but finally managed to solve it. Probably not pretty but represents the filesystem and works… |
