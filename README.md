@@ -13,3 +13,4 @@ My solutions to the [Advent of Code 2022](https://adventofcode.com/2022)… At l
 | [6](https://adventofcode.com/2022/day/6) | [Go](./day06/main.go), [Test](./day06/main_test.go) | Quite simple, possibly more easy to implement but works fine and fast. |
 | [7](https://adventofcode.com/2022/day/7) | [Go](./day07/main.go), [Test](./day07/main_test.go) | Ran into trouble with path matching but finally managed to solve it. Probably not pretty but represents the filesystem and works… |
 | [8](https://adventofcode.com/2022/day/8) | [Go](./day08/main.go), [Test](./day08/main_test.go) | Quote straight forward again, maybe overengineered but hey, pretty, object-oriented and tested… |
+| [9](https://adventofcode.com/2022/day/9) | [Go](./day09/main.go), [Test](./day09/main_test.go) | Shortly raged after seeing part two, thought about just quitting and calling it a day with just one star and then basically rewrote the whole solution… |
