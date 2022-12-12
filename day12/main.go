@@ -82,6 +82,25 @@ func (g grid) FindShortestACoordPathLen() (*tile, int) {
 	return shortestStart, shortest
 }
 
+func (g grid) Print(w io.Writer, renderPath []*tile) {
+	pathFields := make(map[string]bool)
+	for _, t := range renderPath {
+		pathFields[fmt.Sprintf("%d:%d", t.x, t.y)] = true
+	}
+
+	for y := 0; y <= g.MaxY(); y++ {
+		for x := 0; x <= g.MaxX(); x++ {
+			if pathFields[fmt.Sprintf("%d:%d", x, y)] {
+				fmt.Fprintf(w, "·")
+				continue
+			}
+
+			fmt.Fprintf(w, "%s", string(byte(g.ElevationAt(x, y))))
+		}
+		fmt.Fprintln(w)
+	}
+}
+
 func (g grid) ShortestPath(from *tile) ([]*tile, float64, bool) {
 	path, dist, found := astar.Path(from, g.TileAt(g.target[0], g.target[1]))
 
@@ -132,9 +151,14 @@ func (t tile) manhattenDist(target *tile) int {
 func main() {
 	g := readGrid(os.Stdin)
 
-	solution1, _ := g.ShortestPathLen(g.TileAt(g.start[0], g.start[1]))
-	fmt.Printf("Solution 1: %d\n", solution1)
+	solution1, _, _ := g.ShortestPath(g.TileAt(g.start[0], g.start[1]))
+	fmt.Printf("Solution 1: %d\n", len(solution1)-1)
 
-	_, solution2 := g.FindShortestACoordPathLen()
+	g.Print(os.Stdout, solution1)
+
+	solution2Start, solution2 := g.FindShortestACoordPathLen()
 	fmt.Printf("Solution 2: %d\n", solution2)
+
+	solution2Path, _, _ := g.ShortestPath(solution2Start)
+	g.Print(os.Stdout, solution2Path)
 }
