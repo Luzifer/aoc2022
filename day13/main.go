@@ -6,7 +6,6 @@ import (
 	"io"
 	"math"
 	"os"
-	"reflect"
 	"sort"
 	"strconv"
 	"strings"
@@ -210,7 +209,7 @@ func solve2(call distressCall) int {
 
 	var solution int = 1
 	for i := range pl {
-		if reflect.DeepEqual(marker1, pl[i]) || reflect.DeepEqual(marker2, pl[i]) {
+		if marker1.CompareTo(pl[i]) == compareResultEqual || marker2.CompareTo(pl[i]) == compareResultEqual {
 			solution *= i + 1
 		}
 	}
