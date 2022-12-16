@@ -19,3 +19,4 @@ My solutions to the [Advent of Code 2022](https://adventofcode.com/2022)… At l
 | [12](https://adventofcode.com/2022/day/12) | [Go](./day12/main.go), [Test](./day12/main_test.go) | I hate path-finding! I really hate it. And every year there are 1+ puzzles requiring path-finding… Would probably be solvable without A\* library but whatever. Solved is solved. |
 | [13](https://adventofcode.com/2022/day/13) | [Go](./day13/main.go), [Test](./day13/main_test.go) | Maybe too complicated again (seeing a trend here) but works like a charm… |
 | [15](https://adventofcode.com/2022/day/15) | [Go](./day15/main.go), [Test](./day15/main_test.go) | Successfully navigated around the mem-trap in part 1, ran into the cpu-trap in part 2… After waiting an hour without result rebuilt part 2 and had a result in under 10 seconds… |
+| [16](https://adventofcode.com/2022/day/16) | n/a | Fuck this. Not gonna waste that much nerves and life-time on path-finding again. |
