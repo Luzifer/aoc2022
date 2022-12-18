@@ -21,3 +21,4 @@ My solutions to the [Advent of Code 2022](https://adventofcode.com/2022)… At l
 | [15](https://adventofcode.com/2022/day/15) | [Go](./day15/main.go), [Test](./day15/main_test.go) | Successfully navigated around the mem-trap in part 1, ran into the cpu-trap in part 2… After waiting an hour without result rebuilt part 2 and had a result in under 10 seconds… |
 | [16](https://adventofcode.com/2022/day/16) | n/a | Fuck this. Not gonna waste that much nerves and life-time on path-finding again. |
 | [17](https://adventofcode.com/2022/day/17) | [Go](./day17/main.go), [Test](./day17/main_test.go) | Solved part 1, projected time to solve for part two at 250 days, pattern detection was a fail, gave up. Not worth the time and frustration put into this. |
+| [18](https://adventofcode.com/2022/day/18) | n/a | And this was the point I decided to quit for good. Can use my time for way more useful stuff. - So long and thanks for all the fish! 🐬 |
